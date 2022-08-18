@@ -1,7 +1,10 @@
 class Person
+    #@name is an instance variable
+    #setter
     def name=(name)
         @name = name
     end
+    #getter
     def  name
         @name
     end
